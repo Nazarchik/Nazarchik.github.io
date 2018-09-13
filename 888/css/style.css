@@ -1,0 +1,338 @@
+h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0;}
+
+img {
+	max-width: 100%;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.header-1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 0.41px;
+	text-align: center;
+	margin-bottom: 85px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.fa-arrow-alt-circle-up {
+	color: #000;
+	font-size: 34px;
+}
+
+.button {
+	display: inline-block;
+	color: #000;
+	border: 1px solid #e5e5e5;
+	padding: 20px 50px;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 2px;
+	line-height: 1;
+
+	transition: all .2s ease-in;
+}
+.button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+
+.header-title_2 {
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.29px;
+	margin-bottom: 45px;
+}
+
+		/*nav*/
+
+.nav-wrapper {
+	padding-top: 92px;
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 220px;
+}
+	.nav_item {
+		color: #aaa;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .3px;
+		margin-right: 70px;
+		text-decoration: none;
+
+		transition: all .2s ease-in;
+	}
+	.nav_item:last-child {margin-right: 0;}
+	.nav_item.active, .nav_item:focus, .nav_item:hover{
+		color: #111;
+		text-decoration: none;
+	}
+	/* // nav */
+
+		/*header-wrapper*/
+
+.header-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	margin-bottom: 230px;
+}
+	.header-title {
+		font-size: 70px;
+		font-family: 'Playfair Display', serif;
+		line-height: 1.4;
+		letter-spacing: 0.57px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.header-description {
+		color: #999;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.06px;
+		line-height: 1.8;
+		text-align: center;
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+		/* // header-wrapper */
+
+		/* header-content */
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+	width: 1440px;
+	margin-top: 210px;
+}
+		/* // header-content */
+
+		/*reviews*/
+
+	.reviews {
+		width: 260px;
+		/*margin-right: 20px;*/
+	}
+		.review-item {
+			margin-bottom: 25px;
+			border-bottom: 1px solid #e7e7e7;
+			padding-bottom: 15px;
+			position: relative;
+		}
+		.review-item:before {
+			content: "";
+			display: block;
+			width: 36px;
+			height: 29px;
+			position: absolute;
+			top: 0;
+			left: -18px;
+			z-index: -1;
+			background-image: url("../img/Daily UI 026 - Surfing Institute Landing Page-assets/“.png");
+		}
+			.review-item__text {
+				color: #999;
+				font-size: 16px;
+				font-weight: 400;
+				font-style: italic;
+				line-height: 1.9;
+				margin-bottom: 10px;
+			}
+			.review-item__author {
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1.9;
+			}
+			.review-item__author:before {
+				content: "-  ";
+			}
+		/* //reviews*/
+
+		/* video-center */
+	.video-center {
+		position: relative;
+	}
+		.video-center .play-icon {
+			position: absolute;
+			left: 25px;
+			bottom: 30px;
+		}
+
+		/* // video-center */
+
+		/* video */
+	.video {
+		width: 280px;
+	}
+		.video_title {
+			margin-bottom: 25px;
+		}
+		.video-item {
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 36px;
+		}
+		.video-item:last-child {margin-bottom: 0;}
+			.play-icon {
+				position: relative;
+				width: 56px;
+				height: 56px;
+				background-color: #fff;
+				border-radius: 50px;
+			}
+			.play-icon:before {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -4px;
+				margin-top: -5.5px;
+				width: 0;
+				height: 0;
+				border-top: 5.5px solid transparent;
+				border-left: 8px solid #000;
+				border-bottom: 5.5px solid transparent;
+			}
+		.video-item .play-icon {
+			position: absolute;
+			left: -10px;
+			bottom: -15px;
+		}
+		/* // video */
+
+		/* instructor-wrapper */
+.instructor-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 255px;
+}
+	.instructor {
+		text-align: center;
+	}
+		.instructor_photo {
+			margin-bottom: 25px;
+			border-radius: 5px;
+		}
+		.instructor_name {
+			font-family: 'Playfair Display', serif;
+			font-size: 30px;
+			font-weight: 400;
+			letter-spacing: 0.28px;
+			margin-bottom: 10px;
+		}
+		.instructor_students {
+			color: #2ab738;
+			font-size: 15px;
+			font-weight: 500;
+			letter-spacing: 0.14px;
+		}
+		/* // instructor-wrapper */
+
+		/* Recent Blog */
+.recent-container {
+	margin-bottom: 250px;
+}
+	.blog-item {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 190px;
+	}
+		.blog-item_image {
+			
+		}
+		.blog-item_content {
+			width: 450px;
+			text-align: center; !!!
+		}
+			.blog-item_header {
+				font-family: 'Playfair Display', serif;
+				font-size: 39px;
+				font-style: italic;
+				letter-spacing: 0.33px;
+				margin-top: 35px;
+				margin-bottom: 20px;
+			}
+			.blog-item_desc {
+				color: #444;
+				font-size: 16px;
+				line-height: 1.9;
+				letter-spacing: 0.6px;
+				margin-bottom: 50px;
+			}
+			.blog-item_readmore {
+				display: inline-block;
+				border: 1px solid #E5E5E5;
+				padding: 15px 30px;
+				color: #000;
+				font-weight: 500;
+				border-radius: 3px;
+				line-height: 1;
+				height: 52px;
+	
+				transition: all .2s ease-in;
+			}
+			.blog-item_readmore:hover {
+				background-color: #000;
+				color: #fff;
+			}
+
+	/* // Recent Blog */
+
+	/*footer*/
+footer {
+	margin-top: 140px;
+	border-top: px solid #f2ede7;
+	padding: 40px 0 45px;
+}
+	.footer-container {
+		width: 1180px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+		.footer-copyright {
+		}
+			.footer_title {
+				font-family: 'Playfair Display', serif;
+				font-size: 24px;
+				line-height: 1;
+				font-weight: 700;
+				margin-bottom: 10px;
+			}
+			.footer_text {
+				color: #9f9f9f;
+				font-size: 14px;
+				line-height: 2;
+			}
+		.footer_designedby {
+			color: #9f9f9f;
+			font-size: 14px;
+			line-height: 8;
+		}
+			.footer_designedby strong {
+				font-weight: 600;
+				color: #000;
+			}
+	/* // footer*/
