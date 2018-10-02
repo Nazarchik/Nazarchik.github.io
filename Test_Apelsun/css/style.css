@@ -43,6 +43,19 @@ body {
   color: #555;
 }
 
+.tongue {
+  position: absolute;
+  top: 2.8vmax;
+  right: -2.5vmax;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .01vmax;
+}
+
+.active {
+  color: #C4E5EC;
+}
+
 .wrap {
   position: relative;
   margin: 0 auto;
@@ -165,6 +178,7 @@ body {
 }
 
   header {
+    position: relative;
     margin-top: 2.81vmax;
     padding-left: 14.3vmax;
    /* overflow: hidden;*/
@@ -270,6 +284,11 @@ body {
         bottom: .5vmax; 
         border: .3vmax solid transparent; 
         border-left: .4vmax solid #A7D2DB; 
+      }
+
+      .btn_quote a:hover {
+        text-decoration: none;
+        color: #5FD2DB;
       }
 
   .article_container_text {
